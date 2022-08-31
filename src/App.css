@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "nunito", sans-serif;
 }
 
 /* NAVBAR */
@@ -43,4 +44,20 @@
   align-items: center;
   font-size: 14px;
   font-weight: 700;
+}
+
+/* NOT FOUND */
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(68, 68, 68);
+  min-height: 80vh;
+  font-size: xx-large;
+}
+
+.go-back {
+  font-size: 12px;
+  margin-top: 25%;
 }
